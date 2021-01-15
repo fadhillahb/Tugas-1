@@ -4,7 +4,7 @@
 # In[ ]:
 
 
-#Nama
+#Minta Nama
 while True:
     nama = input("Masukkan nama anda : ")
     if not nama.replace(' ','').isalpha():
@@ -12,7 +12,7 @@ while True:
         continue
     if nama.replace(' ','').isalpha():
         break
-#Umur
+#Minta Umur
 def inputNumber(message):
   while True:
     try:
@@ -26,7 +26,7 @@ def inputNumber(message):
 
 
 umur = inputNumber("Berapa usia anda? ")
-#Tinggi
+#Minta Tinggi
 def inputNumber(message):
   while True:
     try:
@@ -43,10 +43,3 @@ tinggi = inputNumber("Berapa tinggi anda? ")
 #Akhir
 print("Data telah dimasukkan!")
 print("Nama saya {} umur saya {} tahun tinggi saya {} cm".format(nama,umur,tinggi))
-
-
-# In[ ]:
-
-
-
-
